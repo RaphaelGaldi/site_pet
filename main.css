@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'DynaPuff', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(42, 196, 57);
+    color: rgb(103, 102, 99);
+    font-size: larger;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: rgb(103, 102, 99);
+    text-decoration: none; 
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto_produto {
+    margin-right: 32px;
+    height: 900px;
+}
+
+section .container {
+    display: flex;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(103, 102, 99);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.container {
+    max-width: 1980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.outros_produtos img {
+    height: 300px;
+    margin: 0 10px;
+    margin-right: 30px;
+    margin-bottom: 200px;
+}
+
+.outros_produtos li{
+    display: inline;
+    margin-right: 30px
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section h3 {
+    height: 50px;
+    display: flex;
+    margin-bottom: 300px;
+
+}
+
+.foto_produto {
+    margin-right: 32px;
+}
+
+.social_links img {
+    height: 50px;
+}
+
+.social_links li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#container .container {
+    display: block;
+}
+
+form {
+    margin-top: 200px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px
+}
+
+form button {
+    background-color:  rgb(42, 196, 57);
+    color:rgb(103, 102, 99);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(58, 251, 78);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(42, 196, 57);
+}
+
+footer {
+    background-color: rgb(42, 196, 57) ;
+    color:rgb(103, 102, 99);
+    padding: 15px 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+section p,
+section h2 {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;
+}
+
+.form_doido {
+    align-items: center;
+}
