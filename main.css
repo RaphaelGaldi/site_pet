@@ -60,6 +60,7 @@ section {
 
 section p {
     margin-bottom: 8px;
+    margin-top: 50px;
 }
 
 .container {
@@ -80,6 +81,11 @@ section p {
     margin-right: 30px
 }
 
+.outros_produtos img {
+    display: b;
+    justify-content: center;
+}
+
 section .container {
     align-items: flex-start;
 }
@@ -89,14 +95,12 @@ section {
 }
 
 section h2 {
-    margin-bottom: 16px;
+    margin-bottom: 300px;
 }
 
 section h3 {
     height: 50px;
-    display: flex;
     margin-bottom: 300px;
-
 }
 
 .foto_produto {
@@ -161,10 +165,10 @@ section p,
 section h2 {
     display: flex;
     align-items: center;
-    height: 20vh;
     justify-content: center;
 }
 
-.form_doido {
+.sub-itens,
+section h3 {
     align-items: center;
 }
